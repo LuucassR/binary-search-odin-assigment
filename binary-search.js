@@ -205,12 +205,32 @@ const BinarySearch = (() => {
 
       traverse(this.root);
     }
+
+    height() {
+
+    }
+
+    depth() {
+
+    }
+
+    isBalanced() {
+
+    }
+
+    rebalance() {
+      
+    }
   }
 
   return {
     Node,
     Tree,
     prettyPrint,
+    height,
+    depth,
+    isBalanced,
+    rebalance,
   };
 })();
 
